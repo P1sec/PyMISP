@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Example of specifying special attribute type in your search: here yara attribute
+# Description: Example of specifying special attribute type in your search: here yara attribute
+# Usage: python3 search_attributes_yara.py
+# Nicer: If you have jq (Command-line JSON processor), you can have a nicer output: python3 search_attributes_yara.py | jq .
 
 from pymisp import PyMISP
 from keys import misp_url, misp_key,misp_verifycert
